@@ -24,14 +24,20 @@
                 <li><a href="gg-html-forms-datalist.htm">Datalist input</a></li>
             </ul>
         </nav>
-        
-        <p class="select">Please select your preferred car:</p>
-        <select name="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="fiat">Fiat</option>
-            <option value="audi">Audi</option>
-        </select>
+
+        <p class="select">What is your preferred browser?</p>
+        <form class="datalist" action="https://www.w3schools.com/action_page.php">
+            <input list="browsers" name="browser">
+            <datalist id="browsers">
+                <option value="Internet Explorer">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+                <option value="Edge">
+            </datalist>
+            <input type="submit">
+        </form>
         
     </body>
 </html>
