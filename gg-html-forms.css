@@ -42,6 +42,11 @@ p.select {
     text-align: center;
 }
 
+p.text-area {
+    font-family: calibri;
+    margin: 0;
+}
+
 form {
     font-family: calibri;
     padding: 50px;
@@ -50,6 +55,18 @@ form {
     position: fixed;
     right: 0;
     left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+form.datalist {
+    font-family: calibri;
+    padding: 0px;
+    text-align: left;
+    width: 210px;
+    position: fixed;
+    right: 0;
+    left: 10;
     margin-right: auto;
     margin-left: auto;
 }
@@ -63,3 +80,11 @@ select {
     margin-right: auto;
     margin-left: auto;
 }
+
+button {
+    width: 70px;
+    border-radius: 5px;
+    padding: 3px;
+    margin-top: 15px;
+}
+
