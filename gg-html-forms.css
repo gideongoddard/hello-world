@@ -71,6 +71,18 @@ form.datalist {
     margin-left: auto;
 }
 
+form.range {
+    font-family: calibri;
+    padding: 0px;
+    text-align: left;
+    width: 375px;
+    position: fixed;
+    right: 0;
+    left: 10;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
 select {
     margin: 0px;
     width: 75px;
