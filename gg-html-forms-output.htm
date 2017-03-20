@@ -25,13 +25,18 @@
                 <li><a href="gg-html-forms-output.htm">Output</a></li>
             </ul>
         </nav>
-        
-        <form>
-            <input type="radio" name="gender" value="male" checked="yes"> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br>
-            <input type="radio" name="gender" value="other"> Other<br>
-            <button type="button" onclick="alert('Good Choice!')">Submit</button>
+
+        <p class="select">Please adjust the inputs using the slider and the number field:</p>
+        <form class="range" action="https://www.w3schools.com/action_page.php"
+              oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            0
+            <input class="range" type="range" id="a" name="a" value="50">
+            100 +
+            <input type="number" id="b" name="b" value="50">
+            =
+            <output name="x" for="a b"></output>
+            <br><br>
+            <input type="submit">
         </form>
-        
     </body>
 </html>
