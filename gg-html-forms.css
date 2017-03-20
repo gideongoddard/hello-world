@@ -103,9 +103,18 @@ button {
 input {
     padding: 5px;
     margin-bottom: 5px;
+    border-radius: 5px
 }
 
 input.range {
     padding: 0px;
 }
 
+textarea {
+    border-radius: 5px;
+}
+
+fieldset {
+    border-radius: 5px;
+    width: 150%;
+}
